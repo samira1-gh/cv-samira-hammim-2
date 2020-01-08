@@ -8,8 +8,8 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
-  background: #F2F2F2;
-  color: #323232;
+  background: rgb(250, 247, 247);
+  color: #000000;
 }
 
 img {
@@ -25,7 +25,7 @@ img {
 }
 
 a {
-  color: #323232;
+  color: #f8b400;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ a:hover {
   max-width: 960px;
   margin: 40px auto;
   padding: 32px;
-  background: white;
+  background: #faf5e4;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -54,8 +54,9 @@ section:last-child {
 }
 
 .section-title {
-  font-weight: bold;
+  font-weight: bold ;
   font-size: 18px;
+  color: rgb(33, 99, 23);
 }
 
 /***********************************
@@ -99,7 +100,7 @@ img.avatar {
 .job {
   padding-bottom: 24px;
   margin-bottom: 24px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid rgb(7, 7, 7);
 }
 
 .job:last-child {
@@ -111,6 +112,7 @@ img.avatar {
   justify-content: space-between;
   margin-bottom: 20px;
   font-size: 18px;
+  color: rgb(228, 63, 13);
 }
 
 .job-company {
